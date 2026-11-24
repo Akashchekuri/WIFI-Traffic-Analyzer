@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Generated packet analysis data
+data/processed/*
+data/captures/*
+
+# Keep folder structure
+!data/processed/.gitkeep
+!data/captures/.gitkeep
+
+# Environment files
+.env
+
+# Operating system files
+.DS_Store
+Thumbs.db
