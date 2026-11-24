@@ -6,9 +6,10 @@ __pycache__/
 venv/
 .venv/
 
-# Generated packet analysis data
+# Ignore generated analysis data
 data/processed/*
-data/captures/*
+!data/processed/packets.csv
+data/captures/*.pcap*
 
 # Keep folder structure
 !data/processed/.gitkeep
